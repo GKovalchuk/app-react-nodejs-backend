@@ -37,3 +37,5 @@ app.get('/promotions/:promoId', async (req, res) => {
 app.listen(1337, () => {
 	console.log('App listening on port 1337');
 });
+
+module.exports = app;
